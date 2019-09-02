@@ -1,0 +1,2368 @@
+{
+  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.ItineraryResult, Tfl.Api.Presentation.Entities",
+  "journeys": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+      "startDateTime": "2019-08-26T17:02:00",
+      "duration": 36,
+      "arrivalDateTime": "2019-08-26T17:38:00",
+      "legs": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 13,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to Peckham Rye Station",
+            "detailed": "Walk to Peckham Rye Station",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Pilkington Road for 17 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Pilkington Road",
+                "distance": 17,
+                "cumulativeDistance": 17,
+                "skyDirection": 528,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 15,
+                "latitude": 51.467330976199996,
+                "longitude": -0.0631934609,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Heaton Road, continue for 143 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Heaton Road",
+                "distance": 143,
+                "cumulativeDistance": 160,
+                "skyDirection": 258,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 141,
+                "latitude": 51.46717725711,
+                "longitude": -0.06314237976,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "for 15 metres",
+                "turnDirection": "SLIGHT_RIGHT",
+                "streetName": "",
+                "distance": 15,
+                "cumulativeDistance": 175,
+                "skyDirection": 302,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 155,
+                "latitude": 51.466940687299996,
+                "longitude": -0.0651536606,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Rye Lane, continue for 338 metres",
+                "turnDirection": "SLIGHT_LEFT",
+                "streetName": "Rye Lane",
+                "distance": 338,
+                "cumulativeDistance": 513,
+                "skyDirection": 279,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 456,
+                "latitude": 51.46701566498,
+                "longitude": -0.06533765754,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight left",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "WALKWAY",
+              "incline": "LEVEL",
+              "stopId": 1001223,
+              "position": "IDEST"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "UP",
+              "stopId": 1001223,
+              "position": "IDEST"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "UP",
+              "stopId": 1001223,
+              "position": "IDEST"
+            }
+          ],
+          "departureTime": "2019-08-26T17:02:00",
+          "arrivalTime": "2019-08-26T17:15:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "platformName": "",
+            "icsCode": "99999997",
+            "commonName": "Pilkington Road, East Dulwich",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.467330976199996,
+            "lon": -0.0631934609
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GPCKHMRY",
+            "platformName": "",
+            "icsCode": "1001223",
+            "commonName": "Peckham Rye Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.46969004162,
+            "lon": -0.06991841403
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.4673309762, -0.0631934609],[51.46717725711, -0.06314237976],[51.46712243288, -0.06363422093],[51.46706665629, -0.06406851074],[51.4669406873, -0.0651536606],[51.46701566498, -0.06533765754],[51.46711977084, -0.06619711157],[51.46774389517, -0.06696260298],[51.46821735485, -0.06731693926],[51.46861749948, -0.06758799178],[51.46906257548, -0.06785715071],[51.46930829054, -0.06803394792],[51.46931656564, -0.06799040341],[51.46931656564, -0.06799040341],[51.46930829054, -0.06803394792],[51.46982691614, -0.06840079776],[51.47018212636, -0.06867376652],[51.47004734944, -0.06922660291],[51.47013863513, -0.06930914037],[51.47011309755, -0.06939660987],[51.47011309755, -0.06939660987],[51.47000976208, -0.06967454425],[51.47000976208, -0.06967454425],[51.46969004162, -0.06991841403]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [
+                ""
+              ]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 513,
+          "isDisrupted": false,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 17,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "London Overground to Whitechapel Rail Station",
+            "detailed": "London Overground towards Dalston Junction",
+            "steps": []
+          },
+          "obstacles": [],
+          "departureTime": "2019-08-26T17:15:00",
+          "arrivalTime": "2019-08-26T17:32:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GPCKHMRY",
+            "platformName": "",
+            "icsCode": "1001223",
+            "commonName": "Peckham Rye Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.46969004162,
+            "lon": -0.06991841403
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWCHAPEL",
+            "platformName": "",
+            "icsCode": "1000268",
+            "commonName": "Whitechapel Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.519502125820004,
+            "lon": -0.05968357723
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.46958102041, -0.06985102307],[51.47004659753, -0.0680891497],[51.47022579959, -0.06695848853],[51.47026975266, -0.06635188874],[51.47032309077, -0.06467939163],[51.47040554842, -0.06368239421],[51.47056297916, -0.06286940034],[51.4707911059, -0.06198141093],[51.47102208112, -0.06126607814],[51.47127150063, -0.06057875368],[51.47170581947, -0.05965319184],[51.4720462838, -0.05903397949],[51.47239787559, -0.05854387906],[51.4728830686, -0.05797609999],[51.47339664815, -0.05749350047],[51.47377948419, -0.05726124105],[51.47377948419, -0.05726124105],[51.47525714374, -0.0563488458],[51.47858628163, -0.05429194781],[51.47958343273, -0.05368784768],[51.47986836653, -0.05351729864],[51.48027480715, -0.05308234109],[51.48044951442, -0.05277246177],[51.48066365385, -0.052129656],[51.48078888343, -0.0515482416],[51.48089757284, -0.05105394114],[51.48105525905, -0.05080238366],[51.48139782793, -0.05031250565],[51.48203478747, -0.04968043976],[51.48300734846, -0.0492212671],[51.48392179321, -0.04905261424],[51.4847956168, -0.04914494623],[51.48503824613, -0.04913459053],[51.4852252815, -0.04902578399],[51.48550733357, -0.04868246529],[51.48564752079, -0.0484604279],[51.48773807952, -0.04655623736],[51.48787922174, -0.04639175835],[51.48802132303, -0.04628485431],[51.48847506474, -0.04599177379],[51.48890328625, -0.04578620581],[51.48963823924, -0.04563953992],[51.49180394108, -0.0466273262],[51.492505233, -0.04715916859],[51.49333448709, -0.04781521304],[51.49333448709, -0.04781521304],[51.49350762234, -0.04795187593],[51.4941450464, -0.04842886076],[51.49471669037, -0.04873579121],[51.49663494916, -0.04944625039],[51.49799581642, -0.05016614857],[51.49799581642, -0.05016614857],[51.49922068903, -0.0508198518],[51.50098698947, -0.05212768644],[51.50098698947, -0.05212768644],[51.50113268283, -0.05223674102],[51.50188390183, -0.05306922654],[51.50414134413, -0.05579723293],[51.5044698627, -0.05608584737],[51.50472362652, -0.05620473291],[51.50472362652, -0.05620473291],[51.50490502269, -0.05629788016],[51.50541087938, -0.05643486005],[51.51016255317, -0.05665056093],[51.51130715037, -0.0568036128],[51.51130715037, -0.0568036128],[51.51277620734, -0.05700051318],[51.51486475804, -0.05659455714],[51.51701772513, -0.05682000766],[51.51743491107, -0.05703286741],[51.51806522172, -0.05762583187],[51.51953711776, -0.05962443326]]",
+            "stopPoints": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GPCKHMQD",
+                "name": "Queens Road Peckham Rail Station",
+                "uri": "/StopPoint/910GPCKHMQD",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GSURREYQ",
+                "name": "Surrey Quays Rail Station",
+                "uri": "/StopPoint/910GSURREYQ",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GCNDAW",
+                "name": "Canada Water Rail Station",
+                "uri": "/StopPoint/910GCNDAW",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GRTHERHI",
+                "name": "Rotherhithe Rail Station",
+                "uri": "/StopPoint/910GRTHERHI",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GWAPPING",
+                "name": "Wapping Rail Station",
+                "uri": "/StopPoint/910GWAPPING",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GSHADWEL",
+                "name": "Shadwell Rail Station",
+                "uri": "/StopPoint/910GSHADWEL",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GWCHAPEL",
+                "name": "Whitechapel Rail Station",
+                "uri": "/StopPoint/910GWCHAPEL",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            ],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "London Overground",
+              "directions": [
+                "Dalston Junction Rail Station"
+              ],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "london-overground",
+                "name": "London Overground",
+                "uri": "/Line/london-overground",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "overground",
+            "name": "overground",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "isDisrupted": false,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 6,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to 15 Brady Street, Tower Hamlets",
+            "detailed": "Walk to 15 Brady Street, Tower Hamlets",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Whitechapel Road for 114 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Whitechapel Road",
+                "distance": 114,
+                "cumulativeDistance": 114,
+                "skyDirection": 430,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 99,
+                "latitude": 51.51916820394,
+                "longitude": -0.05961128544,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Brady Street, continue for 69 metres",
+                "turnDirection": "LEFT",
+                "streetName": "Brady Street",
+                "distance": 69,
+                "cumulativeDistance": 183,
+                "skyDirection": 337,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 156,
+                "latitude": 51.519502385690004,
+                "longitude": -0.05806917964,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "UP",
+              "stopId": 1000268,
+              "position": "BEFORE"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "UP",
+              "stopId": 1000268,
+              "position": "BEFORE"
+            }
+          ],
+          "departureTime": "2019-08-26T17:32:00",
+          "arrivalTime": "2019-08-26T17:38:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWCHAPEL",
+            "platformName": "",
+            "icsCode": "1000268",
+            "commonName": "Whitechapel Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.519502125820004,
+            "lon": -0.05968357723
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+            "commonName": "15 Brady Street, Tower Hamlets",
+            "placeType": "StopPoint",
+            "lat": 51.5200749589,
+            "lon": -0.05843401024
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.51950212582, -0.05968357723],[51.51941345447, -0.0597594167],[51.51920414904, -0.05960975763],[51.51920414904, -0.05960975763],[51.51916796565, -0.05959688151],[51.51917623703, -0.05955328776],[51.51925163213, -0.05921855909],[51.51950238569, -0.05806917964],[51.51982946832, -0.05827147997],[51.5200749589, -0.05843401024]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [
+                ""
+              ]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 183,
+          "isDisrupted": false,
+          "hasFixedLocations": false
+        }
+      ],
+      "fare": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyFare, Tfl.Api.Presentation.Entities",
+        "totalCost": 170,
+        "fares": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Fare, Tfl.Api.Presentation.Entities",
+            "lowZone": 2,
+            "highZone": 2,
+            "cost": 170,
+            "chargeProfileName": "Standard peak/off peak",
+            "isHopperFare": false,
+            "chargeLevel": "Peak",
+            "peak": 170,
+            "offPeak": 150,
+            "taps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "910GPCKHMRY",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Rail",
+                  "validationType": "None",
+                  "hostDeviceType": "Gate",
+                  "nationalLocationCode": 5423,
+                  "tapTimestamp": "2019-08-26T17:15:00"
+                }
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "910GWCHAPEL",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Rail",
+                  "validationType": "None",
+                  "hostDeviceType": "Gate",
+                  "nationalLocationCode": 763,
+                  "tapTimestamp": "2019-08-26T17:32:00"
+                }
+              }
+            ]
+          }
+        ],
+        "caveats": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareCaveat, Tfl.Api.Presentation.Entities",
+            "text": "<p>Fares between two stations may vary depending on the direction of travel, time of day and day of the week.</p><p>We charge higher fares at the busiest times of the day (usually between 06:30 and 09:30, and between 16:00 and 19:00, Monday to Friday).</p><p>When you pay as you go, you must touch your contactless or Oyster card on a yellow reader at the start and end of your journey.</p><p>Some journeys are charged via Zone 1 regardless of the route taken.</p><p>If your journey avoids Zone 1 and you see a pink card reader when changing trains, touch your contactless or Oyster card on it to pay the right fare.</p>",
+            "type": "allRailModes"
+          },
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareCaveat, Tfl.Api.Presentation.Entities",
+            "text": "The price shown is a single adult pay as you go fare.",
+            "type": "generic"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+      "startDateTime": "2019-08-26T17:17:00",
+      "duration": 36,
+      "arrivalDateTime": "2019-08-26T17:53:00",
+      "legs": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 13,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to Peckham Rye Station",
+            "detailed": "Walk to Peckham Rye Station",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Pilkington Road for 17 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Pilkington Road",
+                "distance": 17,
+                "cumulativeDistance": 17,
+                "skyDirection": 528,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 15,
+                "latitude": 51.467330976199996,
+                "longitude": -0.0631934609,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Heaton Road, continue for 143 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Heaton Road",
+                "distance": 143,
+                "cumulativeDistance": 160,
+                "skyDirection": 258,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 141,
+                "latitude": 51.46717725711,
+                "longitude": -0.06314237976,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "for 15 metres",
+                "turnDirection": "SLIGHT_RIGHT",
+                "streetName": "",
+                "distance": 15,
+                "cumulativeDistance": 175,
+                "skyDirection": 302,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 155,
+                "latitude": 51.466940687299996,
+                "longitude": -0.0651536606,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Rye Lane, continue for 338 metres",
+                "turnDirection": "SLIGHT_LEFT",
+                "streetName": "Rye Lane",
+                "distance": 338,
+                "cumulativeDistance": 513,
+                "skyDirection": 279,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 456,
+                "latitude": 51.46701566498,
+                "longitude": -0.06533765754,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight left",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "WALKWAY",
+              "incline": "LEVEL",
+              "stopId": 1001223,
+              "position": "IDEST"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "UP",
+              "stopId": 1001223,
+              "position": "IDEST"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "UP",
+              "stopId": 1001223,
+              "position": "IDEST"
+            }
+          ],
+          "departureTime": "2019-08-26T17:17:00",
+          "arrivalTime": "2019-08-26T17:30:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "platformName": "",
+            "icsCode": "99999997",
+            "commonName": "Pilkington Road, East Dulwich",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.467330976199996,
+            "lon": -0.0631934609
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GPCKHMRY",
+            "platformName": "",
+            "icsCode": "1001223",
+            "commonName": "Peckham Rye Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.46969004162,
+            "lon": -0.06991841403
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.4673309762, -0.0631934609],[51.46717725711, -0.06314237976],[51.46712243288, -0.06363422093],[51.46706665629, -0.06406851074],[51.4669406873, -0.0651536606],[51.46701566498, -0.06533765754],[51.46711977084, -0.06619711157],[51.46774389517, -0.06696260298],[51.46821735485, -0.06731693926],[51.46861749948, -0.06758799178],[51.46906257548, -0.06785715071],[51.46930829054, -0.06803394792],[51.46931656564, -0.06799040341],[51.46931656564, -0.06799040341],[51.46930829054, -0.06803394792],[51.46982691614, -0.06840079776],[51.47018212636, -0.06867376652],[51.47004734944, -0.06922660291],[51.47013863513, -0.06930914037],[51.47011309755, -0.06939660987],[51.47011309755, -0.06939660987],[51.47000976208, -0.06967454425],[51.47000976208, -0.06967454425],[51.46969004162, -0.06991841403]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [
+                ""
+              ]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 513,
+          "isDisrupted": false,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 17,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "London Overground to Whitechapel Rail Station",
+            "detailed": "London Overground towards Dalston Junction",
+            "steps": []
+          },
+          "obstacles": [],
+          "departureTime": "2019-08-26T17:30:00",
+          "arrivalTime": "2019-08-26T17:47:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GPCKHMRY",
+            "platformName": "",
+            "icsCode": "1001223",
+            "commonName": "Peckham Rye Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.46969004162,
+            "lon": -0.06991841403
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWCHAPEL",
+            "platformName": "",
+            "icsCode": "1000268",
+            "commonName": "Whitechapel Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.519502125820004,
+            "lon": -0.05968357723
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.46958102041, -0.06985102307],[51.47004659753, -0.0680891497],[51.47022579959, -0.06695848853],[51.47026975266, -0.06635188874],[51.47032309077, -0.06467939163],[51.47040554842, -0.06368239421],[51.47056297916, -0.06286940034],[51.4707911059, -0.06198141093],[51.47102208112, -0.06126607814],[51.47127150063, -0.06057875368],[51.47170581947, -0.05965319184],[51.4720462838, -0.05903397949],[51.47239787559, -0.05854387906],[51.4728830686, -0.05797609999],[51.47339664815, -0.05749350047],[51.47377948419, -0.05726124105],[51.47377948419, -0.05726124105],[51.47525714374, -0.0563488458],[51.47858628163, -0.05429194781],[51.47958343273, -0.05368784768],[51.47986836653, -0.05351729864],[51.48027480715, -0.05308234109],[51.48044951442, -0.05277246177],[51.48066365385, -0.052129656],[51.48078888343, -0.0515482416],[51.48089757284, -0.05105394114],[51.48105525905, -0.05080238366],[51.48139782793, -0.05031250565],[51.48203478747, -0.04968043976],[51.48300734846, -0.0492212671],[51.48392179321, -0.04905261424],[51.4847956168, -0.04914494623],[51.48503824613, -0.04913459053],[51.4852252815, -0.04902578399],[51.48550733357, -0.04868246529],[51.48564752079, -0.0484604279],[51.48773807952, -0.04655623736],[51.48787922174, -0.04639175835],[51.48802132303, -0.04628485431],[51.48847506474, -0.04599177379],[51.48890328625, -0.04578620581],[51.48963823924, -0.04563953992],[51.49180394108, -0.0466273262],[51.492505233, -0.04715916859],[51.49333448709, -0.04781521304],[51.49333448709, -0.04781521304],[51.49350762234, -0.04795187593],[51.4941450464, -0.04842886076],[51.49471669037, -0.04873579121],[51.49663494916, -0.04944625039],[51.49799581642, -0.05016614857],[51.49799581642, -0.05016614857],[51.49922068903, -0.0508198518],[51.50098698947, -0.05212768644],[51.50098698947, -0.05212768644],[51.50113268283, -0.05223674102],[51.50188390183, -0.05306922654],[51.50414134413, -0.05579723293],[51.5044698627, -0.05608584737],[51.50472362652, -0.05620473291],[51.50472362652, -0.05620473291],[51.50490502269, -0.05629788016],[51.50541087938, -0.05643486005],[51.51016255317, -0.05665056093],[51.51130715037, -0.0568036128],[51.51130715037, -0.0568036128],[51.51277620734, -0.05700051318],[51.51486475804, -0.05659455714],[51.51701772513, -0.05682000766],[51.51743491107, -0.05703286741],[51.51806522172, -0.05762583187],[51.51953711776, -0.05962443326]]",
+            "stopPoints": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GPCKHMQD",
+                "name": "Queens Road Peckham Rail Station",
+                "uri": "/StopPoint/910GPCKHMQD",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GSURREYQ",
+                "name": "Surrey Quays Rail Station",
+                "uri": "/StopPoint/910GSURREYQ",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GCNDAW",
+                "name": "Canada Water Rail Station",
+                "uri": "/StopPoint/910GCNDAW",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GRTHERHI",
+                "name": "Rotherhithe Rail Station",
+                "uri": "/StopPoint/910GRTHERHI",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GWAPPING",
+                "name": "Wapping Rail Station",
+                "uri": "/StopPoint/910GWAPPING",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GSHADWEL",
+                "name": "Shadwell Rail Station",
+                "uri": "/StopPoint/910GSHADWEL",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GWCHAPEL",
+                "name": "Whitechapel Rail Station",
+                "uri": "/StopPoint/910GWCHAPEL",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            ],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "London Overground",
+              "directions": [
+                "Dalston Junction Rail Station"
+              ],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "london-overground",
+                "name": "London Overground",
+                "uri": "/Line/london-overground",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "overground",
+            "name": "overground",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "isDisrupted": false,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 6,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to 15 Brady Street, Tower Hamlets",
+            "detailed": "Walk to 15 Brady Street, Tower Hamlets",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Whitechapel Road for 114 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Whitechapel Road",
+                "distance": 114,
+                "cumulativeDistance": 114,
+                "skyDirection": 430,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 99,
+                "latitude": 51.51916820394,
+                "longitude": -0.05961128544,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Brady Street, continue for 69 metres",
+                "turnDirection": "LEFT",
+                "streetName": "Brady Street",
+                "distance": 69,
+                "cumulativeDistance": 183,
+                "skyDirection": 337,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 156,
+                "latitude": 51.519502385690004,
+                "longitude": -0.05806917964,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "UP",
+              "stopId": 1000268,
+              "position": "BEFORE"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "UP",
+              "stopId": 1000268,
+              "position": "BEFORE"
+            }
+          ],
+          "departureTime": "2019-08-26T17:47:00",
+          "arrivalTime": "2019-08-26T17:53:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWCHAPEL",
+            "platformName": "",
+            "icsCode": "1000268",
+            "commonName": "Whitechapel Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.519502125820004,
+            "lon": -0.05968357723
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+            "commonName": "15 Brady Street, Tower Hamlets",
+            "placeType": "StopPoint",
+            "lat": 51.5200749589,
+            "lon": -0.05843401024
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.51950212582, -0.05968357723],[51.51941345447, -0.0597594167],[51.51920414904, -0.05960975763],[51.51920414904, -0.05960975763],[51.51916796565, -0.05959688151],[51.51917623703, -0.05955328776],[51.51925163213, -0.05921855909],[51.51950238569, -0.05806917964],[51.51982946832, -0.05827147997],[51.5200749589, -0.05843401024]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [
+                ""
+              ]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 183,
+          "isDisrupted": false,
+          "hasFixedLocations": false
+        }
+      ],
+      "fare": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyFare, Tfl.Api.Presentation.Entities",
+        "totalCost": 170,
+        "fares": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Fare, Tfl.Api.Presentation.Entities",
+            "lowZone": 2,
+            "highZone": 2,
+            "cost": 170,
+            "chargeProfileName": "Standard peak/off peak",
+            "isHopperFare": false,
+            "chargeLevel": "Peak",
+            "peak": 170,
+            "offPeak": 150,
+            "taps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "910GPCKHMRY",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Rail",
+                  "validationType": "None",
+                  "hostDeviceType": "Gate",
+                  "nationalLocationCode": 5423,
+                  "tapTimestamp": "2019-08-26T17:30:00"
+                }
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "910GWCHAPEL",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Rail",
+                  "validationType": "None",
+                  "hostDeviceType": "Gate",
+                  "nationalLocationCode": 763,
+                  "tapTimestamp": "2019-08-26T17:47:00"
+                }
+              }
+            ]
+          }
+        ],
+        "caveats": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareCaveat, Tfl.Api.Presentation.Entities",
+            "text": "<p>Fares between two stations may vary depending on the direction of travel, time of day and day of the week.</p><p>We charge higher fares at the busiest times of the day (usually between 06:30 and 09:30, and between 16:00 and 19:00, Monday to Friday).</p><p>When you pay as you go, you must touch your contactless or Oyster card on a yellow reader at the start and end of your journey.</p><p>Some journeys are charged via Zone 1 regardless of the route taken.</p><p>If your journey avoids Zone 1 and you see a pink card reader when changing trains, touch your contactless or Oyster card on it to pay the right fare.</p>",
+            "type": "allRailModes"
+          },
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareCaveat, Tfl.Api.Presentation.Entities",
+            "text": "The price shown is a single adult pay as you go fare.",
+            "type": "generic"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+      "startDateTime": "2019-08-26T17:18:00",
+      "duration": 47,
+      "arrivalDateTime": "2019-08-26T18:05:00",
+      "legs": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 16,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to Queens Road Peckham Station",
+            "detailed": "Walk to Queens Road Peckham Station",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Pilkington Road for 60 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Pilkington Road",
+                "distance": 60,
+                "cumulativeDistance": 60,
+                "skyDirection": 348,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 53,
+                "latitude": 51.467330976199996,
+                "longitude": -0.0631934609,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Godman Road, continue for 83 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Godman Road",
+                "distance": 83,
+                "cumulativeDistance": 143,
+                "skyDirection": 437,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 127,
+                "latitude": 51.46786378665,
+                "longitude": -0.06332927435,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Consort Road, continue for 85 metres",
+                "turnDirection": "LEFT",
+                "streetName": "Consort Road",
+                "distance": 85,
+                "cumulativeDistance": 228,
+                "skyDirection": 343,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 202,
+                "latitude": 51.46800628434,
+                "longitude": -0.062157009449999995,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Brayards Road, continue for 199 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Brayards Road",
+                "distance": 199,
+                "cumulativeDistance": 427,
+                "skyDirection": 410,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 381,
+                "latitude": 51.468740600450005,
+                "longitude": -0.06251464546,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Kirkwood Road, continue for 169 metres",
+                "turnDirection": "LEFT",
+                "streetName": "Kirkwood Road",
+                "distance": 169,
+                "cumulativeDistance": 596,
+                "skyDirection": 351,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 533,
+                "latitude": 51.469280933650005,
+                "longitude": -0.05984246434,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Lugard Road, continue for 409 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Lugard Road",
+                "distance": 409,
+                "cumulativeDistance": 1005,
+                "skyDirection": 414,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 898,
+                "latitude": 51.47075570808,
+                "longitude": -0.06038464631,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Queens Road, continue for 46 metres",
+                "turnDirection": "SHARP_RIGHT",
+                "streetName": "Queens Road",
+                "distance": 46,
+                "cumulativeDistance": 1051,
+                "skyDirection": 458,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 939,
+                "latitude": 51.47343020937,
+                "longitude": -0.05734807845,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a sharp right",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [],
+          "departureTime": "2019-08-26T17:18:00",
+          "arrivalTime": "2019-08-26T17:34:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "platformName": "",
+            "icsCode": "99999997",
+            "commonName": "Pilkington Road, East Dulwich",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.467330976199996,
+            "lon": -0.0631934609
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G01233QN",
+            "platformName": "QH",
+            "stopLetter": "QH",
+            "icsCode": "1001233",
+            "commonName": "Queen's Road Peckham Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.47342822649,
+            "lon": -0.05668577965
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.4673309762, -0.0631934609],[51.46763817664, -0.06328123645],[51.46786378665, -0.06332927435],[51.46800628434, -0.06215700945],[51.46827801559, -0.062275078],[51.46874060045, -0.06251464546],[51.46887111577, -0.062249949],[51.46893706103, -0.06188719975],[51.46906043767, -0.06119085548],[51.46914792182, -0.061043164],[51.46928093365, -0.05984246434],[51.46977732588, -0.0599509919],[51.47075570808, -0.06038464631],[51.47106755062, -0.0596658747],[51.47176692552, -0.05845547342],[51.47218683028, -0.05774648184],[51.47226103232, -0.05734015088],[51.47255400485, -0.05711171431],[51.47285031537, -0.0570847252],[51.47343020937, -0.05734807845],[51.4734086602, -0.05713299957],[51.47336556069, -0.05670284245],[51.47342822649, -0.05668577965]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [
+                ""
+              ]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 1051,
+          "isDisrupted": false,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 6,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "136 bus to New Cross Gate Station",
+            "detailed": "136 bus towards Grove Park",
+            "steps": []
+          },
+          "obstacles": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "WALKWAY",
+              "incline": "LEVEL",
+              "stopId": 1000156,
+              "position": "AFTER"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "WALKWAY",
+              "incline": "LEVEL",
+              "stopId": 1000156,
+              "position": "AFTER"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "DOWN",
+              "stopId": 1000156,
+              "position": "AFTER"
+            }
+          ],
+          "departureTime": "2019-08-26T17:34:00",
+          "arrivalTime": "2019-08-26T17:40:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G01233QN",
+            "platformName": "QH",
+            "stopLetter": "QH",
+            "icsCode": "1001233",
+            "commonName": "Queen's Road Peckham Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.47342822649,
+            "lon": -0.05668577965
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "490G00156M",
+            "platformName": "M",
+            "stopLetter": "M",
+            "icsCode": "1000156",
+            "commonName": "New Cross Gate Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.4748403359,
+            "lon": -0.041030465259999996
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.47336556069, -0.05670284245],[51.47331132624, -0.05614356307],[51.47314901462, -0.05557448109],[51.47305978435, -0.05507429221],[51.47300649725, -0.05457257607],[51.47295335674, -0.05353807379],[51.47295335674, -0.05353807379],[51.47294198148, -0.05339456315],[51.47296717425, -0.05274551349],[51.47323417681, -0.05149577955],[51.4733362726, -0.05114583835],[51.47342302608, -0.05095494561],[51.47368137036, -0.05026714692],[51.47393133129, -0.04907570478],[51.47397519109, -0.04846904105],[51.47397519109, -0.04846904105],[51.47404241259, -0.0476453811],[51.47430061359, -0.04641036291],[51.47443791962, -0.04601569734],[51.47436997925, -0.04571620173],[51.47433449293, -0.04466652282],[51.47433449293, -0.04466652282],[51.47431902658, -0.04427838593],[51.47431230514, -0.04387547525],[51.47432557669, -0.04305411091],[51.47438055365, -0.04257655936],[51.47442966608, -0.04228645742],[51.47467825145, -0.04155581143],[51.4747129946, -0.041482323],[51.47482212298, -0.04101684545]]",
+            "stopPoints": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00011088",
+                "name": "Pomeroy Street",
+                "uri": "/StopPoint/490G00011088",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00010205",
+                "name": "New Cross Fire Station",
+                "uri": "/StopPoint/490G00010205",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00010204",
+                "name": "New Cross Bus Garage",
+                "uri": "/StopPoint/490G00010204",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "490G00156M",
+                "name": "New Cross Gate Station",
+                "uri": "/StopPoint/490G00156M",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            ],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "136",
+              "directions": [
+                "Grove Park"
+              ],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "136",
+                "name": "136",
+                "uri": "/Line/136",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "bus",
+            "name": "bus",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "isDisrupted": false,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 13,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "London Overground to Whitechapel Rail Station",
+            "detailed": "London Overground towards Highbury & Islington",
+            "steps": []
+          },
+          "obstacles": [],
+          "departureTime": "2019-08-26T17:46:00",
+          "arrivalTime": "2019-08-26T17:59:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GNEWXGTE",
+            "platformName": "",
+            "icsCode": "1000156",
+            "commonName": "New Cross Gate Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.475746503749995,
+            "lon": -0.04090523874
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWCHAPEL",
+            "platformName": "",
+            "icsCode": "1000268",
+            "commonName": "Whitechapel Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.519502125820004,
+            "lon": -0.05968357723
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.47578806854, -0.04070185211],[51.4770496584, -0.04139663043],[51.4781859175, -0.04212561572],[51.4790286064, -0.04250716852],[51.47953375814, -0.04260075162],[51.48131543681, -0.04266848468],[51.48200127408, -0.04281194672],[51.48392711329, -0.04343523227],[51.48697348515, -0.0443851167],[51.48963823924, -0.04563953992],[51.49180394108, -0.0466273262],[51.492505233, -0.04715916859],[51.49333448709, -0.04781521304],[51.49333448709, -0.04781521304],[51.49350762234, -0.04795187593],[51.4941450464, -0.04842886076],[51.49471669037, -0.04873579121],[51.49663494916, -0.04944625039],[51.49799581642, -0.05016614857],[51.49799581642, -0.05016614857],[51.49922068903, -0.0508198518],[51.50098698947, -0.05212768644],[51.50098698947, -0.05212768644],[51.50113268283, -0.05223674102],[51.50188390183, -0.05306922654],[51.50414134413, -0.05579723293],[51.5044698627, -0.05608584737],[51.50472362652, -0.05620473291],[51.50472362652, -0.05620473291],[51.50490502269, -0.05629788016],[51.50541087938, -0.05643486005],[51.51016255317, -0.05665056093],[51.51130715037, -0.0568036128],[51.51130715037, -0.0568036128],[51.51277620734, -0.05700051318],[51.51486475804, -0.05659455714],[51.51701772513, -0.05682000766],[51.51743491107, -0.05703286741],[51.51806522172, -0.05762583187],[51.51953711776, -0.05962443326]]",
+            "stopPoints": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GSURREYQ",
+                "name": "Surrey Quays Rail Station",
+                "uri": "/StopPoint/910GSURREYQ",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GCNDAW",
+                "name": "Canada Water Rail Station",
+                "uri": "/StopPoint/910GCNDAW",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GRTHERHI",
+                "name": "Rotherhithe Rail Station",
+                "uri": "/StopPoint/910GRTHERHI",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GWAPPING",
+                "name": "Wapping Rail Station",
+                "uri": "/StopPoint/910GWAPPING",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GSHADWEL",
+                "name": "Shadwell Rail Station",
+                "uri": "/StopPoint/910GSHADWEL",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "910GWCHAPEL",
+                "name": "Whitechapel Rail Station",
+                "uri": "/StopPoint/910GWCHAPEL",
+                "type": "StopPoint",
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            ],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "London Overground",
+              "directions": [
+                "Highbury & Islington Rail Station"
+              ],
+              "lineIdentifier": {
+                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                "id": "london-overground",
+                "name": "London Overground",
+                "uri": "/Line/london-overground",
+                "type": "Line",
+                "crowding": {
+                  "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                },
+                "routeType": "Unknown",
+                "status": "Unknown"
+              }
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "overground",
+            "name": "overground",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "isDisrupted": false,
+          "hasFixedLocations": true
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 6,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to 15 Brady Street, Tower Hamlets",
+            "detailed": "Walk to 15 Brady Street, Tower Hamlets",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Whitechapel Road for 114 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Whitechapel Road",
+                "distance": 114,
+                "cumulativeDistance": 114,
+                "skyDirection": 430,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 99,
+                "latitude": 51.51916820394,
+                "longitude": -0.05961128544,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Brady Street, continue for 69 metres",
+                "turnDirection": "LEFT",
+                "streetName": "Brady Street",
+                "distance": 69,
+                "cumulativeDistance": 183,
+                "skyDirection": 337,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 156,
+                "latitude": 51.519502385690004,
+                "longitude": -0.05806917964,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "UP",
+              "stopId": 1000268,
+              "position": "BEFORE"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+              "type": "STAIRS",
+              "incline": "UP",
+              "stopId": 1000268,
+              "position": "BEFORE"
+            }
+          ],
+          "departureTime": "2019-08-26T17:59:00",
+          "arrivalTime": "2019-08-26T18:05:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "naptanId": "910GWCHAPEL",
+            "platformName": "",
+            "icsCode": "1000268",
+            "commonName": "Whitechapel Rail Station",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.519502125820004,
+            "lon": -0.05968357723
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+            "commonName": "15 Brady Street, Tower Hamlets",
+            "placeType": "StopPoint",
+            "lat": 51.5200749589,
+            "lon": -0.05843401024
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.51950212582, -0.05968357723],[51.51941345447, -0.0597594167],[51.51920414904, -0.05960975763],[51.51920414904, -0.05960975763],[51.51916796565, -0.05959688151],[51.51917623703, -0.05955328776],[51.51925163213, -0.05921855909],[51.51950238569, -0.05806917964],[51.51982946832, -0.05827147997],[51.5200749589, -0.05843401024]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [
+                ""
+              ]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 183,
+          "isDisrupted": false,
+          "hasFixedLocations": false
+        }
+      ],
+      "fare": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyFare, Tfl.Api.Presentation.Entities",
+        "totalCost": 320,
+        "fares": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Fare, Tfl.Api.Presentation.Entities",
+            "lowZone": 0,
+            "highZone": 0,
+            "cost": 150,
+            "isHopperFare": false,
+            "peak": 0,
+            "offPeak": 0,
+            "taps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "490G01233QN",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Bus",
+                  "validationType": "Entry",
+                  "hostDeviceType": "ETM",
+                  "busRouteId": "136",
+                  "nationalLocationCode": 0,
+                  "tapTimestamp": "2019-08-26T17:34:00"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Fare, Tfl.Api.Presentation.Entities",
+            "lowZone": 2,
+            "highZone": 2,
+            "cost": 170,
+            "chargeProfileName": "Standard peak/off peak",
+            "isHopperFare": false,
+            "chargeLevel": "Peak",
+            "peak": 170,
+            "offPeak": 150,
+            "taps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "910GNEWXGTE",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Rail",
+                  "validationType": "None",
+                  "hostDeviceType": "Gate",
+                  "nationalLocationCode": 5345,
+                  "tapTimestamp": "2019-08-26T17:46:00"
+                }
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTap, Tfl.Api.Presentation.Entities",
+                "atcoCode": "910GWCHAPEL",
+                "tapDetails": {
+                  "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareTapDetails, Tfl.Api.Presentation.Entities",
+                  "modeType": "Rail",
+                  "validationType": "None",
+                  "hostDeviceType": "Gate",
+                  "nationalLocationCode": 763,
+                  "tapTimestamp": "2019-08-26T17:59:00"
+                }
+              }
+            ]
+          }
+        ],
+        "caveats": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareCaveat, Tfl.Api.Presentation.Entities",
+            "text": "<p>Fares between two stations may vary depending on the direction of travel, time of day and day of the week.</p><p>We charge higher fares at the busiest times of the day (usually between 06:30 and 09:30, and between 16:00 and 19:00, Monday to Friday).</p><p>When you pay as you go, you must touch your contactless or Oyster card on a yellow reader at the start and end of your journey.</p><p>Some journeys are charged via Zone 1 regardless of the route taken.</p><p>If your journey avoids Zone 1 and you see a pink card reader when changing trains, touch your contactless or Oyster card on it to pay the right fare.</p>",
+            "type": "allRailModes"
+          },
+          {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.FareCaveat, Tfl.Api.Presentation.Entities",
+            "text": "The price shown is a single adult pay as you go fare.",
+            "type": "generic"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+      "startDateTime": "2019-08-26T17:11:00",
+      "duration": 111,
+      "arrivalDateTime": "2019-08-26T19:02:00",
+      "legs": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+          "duration": 111,
+          "instruction": {
+            "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+            "summary": "Walk to 15 Brady Street",
+            "detailed": "Walk to 15 Brady Street",
+            "steps": [
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "Pilkington Road for 17 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Pilkington Road",
+                "distance": 17,
+                "cumulativeDistance": 17,
+                "skyDirection": 528,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 15,
+                "latitude": 51.467330976199996,
+                "longitude": -0.0631934609,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Heaton Road, continue for 143 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Heaton Road",
+                "distance": 143,
+                "cumulativeDistance": 160,
+                "skyDirection": 258,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 141,
+                "latitude": 51.46717725711,
+                "longitude": -0.06314237976,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "for 15 metres",
+                "turnDirection": "SLIGHT_RIGHT",
+                "streetName": "",
+                "distance": 15,
+                "cumulativeDistance": 175,
+                "skyDirection": 302,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 155,
+                "latitude": 51.466940687299996,
+                "longitude": -0.0651536606,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Rye Lane, continue for 793 metres",
+                "turnDirection": "SLIGHT_LEFT",
+                "streetName": "Rye Lane",
+                "distance": 793,
+                "cumulativeDistance": 968,
+                "skyDirection": 279,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 861,
+                "latitude": 51.46701566498,
+                "longitude": -0.06533765754,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "for 39 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "",
+                "distance": 39,
+                "cumulativeDistance": 1007,
+                "skyDirection": 364,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 893,
+                "latitude": 51.473168726839994,
+                "longitude": -0.06982918626000001,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Boathouse Walk, continue for 1149 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Boathouse Walk",
+                "distance": 1149,
+                "cumulativeDistance": 2156,
+                "skyDirection": 350,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 1899,
+                "latitude": 51.47351848572,
+                "longitude": -0.06977122378,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Trafalgar Avenue, continue for 404 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Trafalgar Avenue",
+                "distance": 404,
+                "cumulativeDistance": 2560,
+                "skyDirection": 356,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 2261,
+                "latitude": 51.48325554315,
+                "longitude": -0.07402656179,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Old Kent Road, continue for 181 metres",
+                "turnDirection": "SLIGHT_LEFT",
+                "streetName": "Old Kent Road",
+                "distance": 181,
+                "cumulativeDistance": 2741,
+                "skyDirection": 302,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 2421,
+                "latitude": 51.486887468489996,
+                "longitude": -0.07395994242000001,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "for 36 metres",
+                "turnDirection": "SLIGHT_RIGHT",
+                "streetName": "",
+                "distance": 36,
+                "cumulativeDistance": 2777,
+                "skyDirection": 368,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 2453,
+                "latitude": 51.48790101418,
+                "longitude": -0.07599142870999999,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Humphrey Street, continue for 128 metres",
+                "turnDirection": "SLIGHT_RIGHT",
+                "streetName": "Humphrey Street",
+                "distance": 128,
+                "cumulativeDistance": 2905,
+                "skyDirection": 396,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 2568,
+                "latitude": 51.48822334397,
+                "longitude": -0.07590583795,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "for 26 metres",
+                "turnDirection": "SLIGHT_LEFT",
+                "streetName": "",
+                "distance": 26,
+                "cumulativeDistance": 2931,
+                "skyDirection": 325,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 2592,
+                "latitude": 51.48918726937,
+                "longitude": -0.07491455426999999,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Mandela Way, continue for 149 metres",
+                "turnDirection": "LEFT",
+                "streetName": "Mandela Way",
+                "distance": 149,
+                "cumulativeDistance": 3080,
+                "skyDirection": 333,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 2724,
+                "latitude": 51.489366288439996,
+                "longitude": -0.07486379951,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Dunton Road, continue for 371 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Dunton Road",
+                "distance": 371,
+                "cumulativeDistance": 3451,
+                "skyDirection": 389,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 3054,
+                "latitude": 51.490342471110004,
+                "longitude": -0.07626316991,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Grange Road, continue for 83 metres",
+                "turnDirection": "LEFT",
+                "streetName": "Grange Road",
+                "distance": 83,
+                "cumulativeDistance": 3534,
+                "skyDirection": 319,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 3127,
+                "latitude": 51.493240376429995,
+                "longitude": -0.073663366,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Alscot Road, continue for 247 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Alscot Road",
+                "distance": 247,
+                "cumulativeDistance": 3781,
+                "skyDirection": 399,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 3348,
+                "latitude": 51.493740300190005,
+                "longitude": -0.07453546273,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Spa Road, continue for 28 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Spa Road",
+                "distance": 28,
+                "cumulativeDistance": 3809,
+                "skyDirection": 431,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 3372,
+                "latitude": 51.49568443708,
+                "longitude": -0.07354591845,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Neckinger, continue for 253 metres",
+                "turnDirection": "LEFT",
+                "streetName": "Neckinger",
+                "distance": 253,
+                "cumulativeDistance": 4062,
+                "skyDirection": 344,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 3597,
+                "latitude": 51.495759164789995,
+                "longitude": -0.07316819502,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Gedling Place, continue for 102 metres",
+                "turnDirection": "SLIGHT_RIGHT",
+                "streetName": "Gedling Place",
+                "distance": 102,
+                "cumulativeDistance": 4164,
+                "skyDirection": 374,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 3688,
+                "latitude": 51.497975728380005,
+                "longitude": -0.07398237587,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Druid Street, continue for 408 metres",
+                "turnDirection": "SLIGHT_LEFT",
+                "streetName": "Druid Street",
+                "distance": 408,
+                "cumulativeDistance": 4572,
+                "skyDirection": 309,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 4053,
+                "latitude": 51.4988795693,
+                "longitude": -0.07371374971,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Tower Bridge Road, continue for 358 metres",
+                "turnDirection": "SLIGHT_RIGHT",
+                "streetName": "Tower Bridge Road",
+                "distance": 358,
+                "cumulativeDistance": 4930,
+                "skyDirection": 368,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 4369,
+                "latitude": 51.50129801268,
+                "longitude": -0.07806396171,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "for 4 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "",
+                "distance": 4,
+                "cumulativeDistance": 4934,
+                "skyDirection": 387,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 4373,
+                "latitude": 51.50427090104,
+                "longitude": -0.0761953462,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Tower Bridge, continue for 570 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Tower Bridge",
+                "distance": 570,
+                "cumulativeDistance": 5504,
+                "skyDirection": 381,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 4881,
+                "latitude": 51.50430637416,
+                "longitude": -0.07616503346999999,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "for 17 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "",
+                "distance": 17,
+                "cumulativeDistance": 5521,
+                "skyDirection": 370,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 4896,
+                "latitude": 51.509157615220005,
+                "longitude": -0.07368375973,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Mansell Street, continue for 257 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Mansell Street",
+                "distance": 257,
+                "cumulativeDistance": 5778,
+                "skyDirection": 380,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 5126,
+                "latitude": 51.5093096738,
+                "longitude": -0.07363411306,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Prescot Street, continue for 8 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Prescot Street",
+                "distance": 8,
+                "cumulativeDistance": 5786,
+                "skyDirection": 436,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 5134,
+                "latitude": 51.51142169488,
+                "longitude": -0.07246414992,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to West Tenter Street, continue for 162 metres",
+                "turnDirection": "LEFT",
+                "streetName": "West Tenter Street",
+                "distance": 162,
+                "cumulativeDistance": 5948,
+                "skyDirection": 353,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 5279,
+                "latitude": 51.51143777402,
+                "longitude": -0.07234817848,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to North Tenter Street, continue for 96 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "North Tenter Street",
+                "distance": 96,
+                "cumulativeDistance": 6044,
+                "skyDirection": 425,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 5365,
+                "latitude": 51.51288978408,
+                "longitude": -0.07260394709,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to St Mark Street, continue for 46 metres",
+                "turnDirection": "LEFT",
+                "streetName": "St Mark Street",
+                "distance": 46,
+                "cumulativeDistance": 6090,
+                "skyDirection": 334,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 5405,
+                "latitude": 51.513228640369995,
+                "longitude": -0.07133578609999999,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Alie Street, continue for 226 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Alie Street",
+                "distance": 226,
+                "cumulativeDistance": 6316,
+                "skyDirection": 421,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 5605,
+                "latitude": 51.5136018169,
+                "longitude": -0.07160826923000001,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Goodmans Stile, continue for 42 metres",
+                "turnDirection": "STRAIGHT",
+                "streetName": "Goodmans Stile",
+                "distance": 42,
+                "cumulativeDistance": 6358,
+                "skyDirection": 406,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 5641,
+                "latitude": 51.51470822889,
+                "longitude": -0.06889520458000001,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Continue along ",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to White Church Lane, continue for 143 metres",
+                "turnDirection": "SLIGHT_LEFT",
+                "streetName": "White Church Lane",
+                "distance": 143,
+                "cumulativeDistance": 6501,
+                "skyDirection": 331,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 5767,
+                "latitude": 51.51500003463,
+                "longitude": -0.06859460842000001,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Take a slight left",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Whitechapel Road, continue for 885 metres",
+                "turnDirection": "RIGHT",
+                "streetName": "Whitechapel Road",
+                "distance": 885,
+                "cumulativeDistance": 7386,
+                "skyDirection": 405,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 6551,
+                "latitude": 51.51614819932,
+                "longitude": -0.06951171526,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn right",
+                "trackType": "None"
+              },
+              {
+                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                "description": "on to Brady Street, continue for 69 metres",
+                "turnDirection": "LEFT",
+                "streetName": "Brady Street",
+                "distance": 69,
+                "cumulativeDistance": 7455,
+                "skyDirection": 337,
+                "skyDirectionDescription": "North",
+                "cumulativeTravelTime": 6613,
+                "latitude": 51.519502385690004,
+                "longitude": -0.05806917964,
+                "pathAttribute": {
+                  "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                },
+                "descriptionHeading": "Turn left",
+                "trackType": "None"
+              }
+            ]
+          },
+          "obstacles": [],
+          "departureTime": "2019-08-26T17:11:00",
+          "arrivalTime": "2019-08-26T19:02:00",
+          "departurePoint": {
+            "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+            "platformName": "",
+            "icsCode": "99999997",
+            "commonName": "Pilkington Road",
+            "placeType": "StopPoint",
+            "additionalProperties": [],
+            "lat": 51.467330976199996,
+            "lon": -0.0631934609
+          },
+          "arrivalPoint": {
+            "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+            "commonName": "15 Brady Street",
+            "placeType": "StopPoint",
+            "lat": 51.5200749589,
+            "lon": -0.05843401024
+          },
+          "path": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+            "lineString": "[[51.4673309762, -0.0631934609],[51.4673309762, -0.0631934609],[51.46717725711, -0.06314237976],[51.46712243288, -0.06363422093],[51.46706665629, -0.06406851074],[51.4669406873, -0.0651536606],[51.46701566498, -0.06533765754],[51.46711977084, -0.06619711157],[51.46774389517, -0.06696260298],[51.46821735485, -0.06731693926],[51.46861749948, -0.06758799178],[51.46906257548, -0.06785715071],[51.46982691614, -0.06840079776],[51.47018212636, -0.06867376652],[51.47053780995, -0.06897551684],[51.47072913106, -0.0691258246],[51.47152917476, -0.06965360577],[51.47161951258, -0.06967859053],[51.47198866571, -0.06970620542],[51.47316872684, -0.06982918626],[51.47351848572, -0.06977122378],[51.47591976347, -0.07033227186],[51.4774611851, -0.0711024665],[51.47831987193, -0.07191590612],[51.47839909296, -0.07181175698],[51.47907875257, -0.07212872512],[51.47996178617, -0.07223550424],[51.48152211455, -0.07306263897],[51.48197474585, -0.07324519146],[51.48294102074, -0.07349251493],[51.48314084979, -0.07361371706],[51.48323378762, -0.07379703539],[51.48325554315, -0.07402656179],[51.48369658625, -0.0740511873],[51.48437174864, -0.07409475483],[51.4861964613, -0.07404667582],[51.48659162654, -0.07401562053],[51.48688746849, -0.07395994242],[51.48737414256, -0.07512056092],[51.48741174214, -0.07521980541],[51.48756829119, -0.07544367736],[51.48790101418, -0.07599142871],[51.48822334397, -0.07590583795],[51.48887581723, -0.07511493158],[51.48918726937, -0.07491455427],[51.48927878756, -0.07501153138],[51.48936628844, -0.07486379951],[51.48966685694, -0.07509601825],[51.48992391056, -0.07541650142],[51.48998894162, -0.07554340609],[51.49034247111, -0.07626316991],[51.49126359324, -0.0754032964],[51.49135203964, -0.07531313993],[51.49210643098, -0.07470514652],[51.49277166422, -0.07414410745],[51.49324037643, -0.073663366],[51.49343334702, -0.07391453727],[51.49374030019, -0.07453546273],[51.49413594054, -0.07398576417],[51.49439796496, -0.07351372072],[51.49460275972, -0.07338983595],[51.49568443708, -0.07354591845],[51.49575916479, -0.07316819502],[51.49655587977, -0.07349476798],[51.49687253174, -0.07361107901],[51.49714448816, -0.07374368309],[51.49797572838, -0.07398237587],[51.49826140088, -0.07385507325],[51.4988795693, -0.07371374971],[51.49917635551, -0.07426313687],[51.49997376404, -0.07572795196],[51.50017335456, -0.07583480905],[51.50028709667, -0.07619021988],[51.50129801268, -0.07806396171],[51.50155767436, -0.07799540315],[51.50214605663, -0.07768247391],[51.5024125801, -0.07748394441],[51.5026611304, -0.07728616906],[51.50277653706, -0.07719485829],[51.50289241583, -0.07713234495],[51.50317691104, -0.07693305225],[51.50346140588, -0.07673375702],[51.50419096839, -0.07625634998],[51.50427090104, -0.0761953462],[51.50430637416, -0.07616503347],[51.50495576545, -0.07573421435],[51.50548951361, -0.07538030437],[51.50651207448, -0.07467435327],[51.50688571945, -0.07442803979],[51.50694815118, -0.07439658728],[51.50715365551, -0.07431587169],[51.50782550511, -0.07415784955],[51.50844390916, -0.07403089771],[51.50857823169, -0.0739964117],[51.50889890283, -0.07380995856],[51.50906822463, -0.07371635194],[51.50915761522, -0.07368375973],[51.5093096738, -0.07363411306],[51.50958564902, -0.07346395079],[51.51009928704, -0.07298112481],[51.51044644213, -0.07276471778],[51.51070728314, -0.07276812091],[51.51108565671, -0.07280979821],[51.51135264418, -0.07264000337],[51.51142169488, -0.07246414992],[51.51143777402, -0.07234817848],[51.51181638437, -0.07240425452],[51.51213209021, -0.07246298673],[51.51288978408, -0.07260394709],[51.51322864037, -0.0713357861],[51.5136018169, -0.07160826923],[51.51390165379, -0.07070203909],[51.51401326369, -0.07038025022],[51.51427432232, -0.06985036802],[51.51470822889, -0.06889520458],[51.51487422603, -0.06859993021],[51.51500003463, -0.06859460842],[51.51522801315, -0.06878674382],[51.51547372689, -0.06896371815],[51.51583721109, -0.06919336578],[51.51610208231, -0.06944159984],[51.51614819932, -0.06951171526],[51.51618319636, -0.06945258311],[51.51669560401, -0.06834992175],[51.51686939962, -0.06798223574],[51.51718080468, -0.06723397367],[51.51725812108, -0.06701449894],[51.51736120897, -0.06672186482],[51.51770380055, -0.06568399305],[51.51787378596, -0.06508583177],[51.51817071804, -0.06400663073],[51.51841396015, -0.06294410733],[51.51844681273, -0.06275533368],[51.51871652614, -0.06166284522],[51.51875860097, -0.06148809169],[51.51883376356, -0.06113896531],[51.51891743508, -0.06076064836],[51.51917623703, -0.05955328776],[51.51925163213, -0.05921855909],[51.51950238569, -0.05806917964],[51.51982946832, -0.05827147997],[51.5200749589, -0.05843401024],[51.5200749589, -0.05843401024]]",
+            "stopPoints": [],
+            "elevation": []
+          },
+          "routeOptions": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+              "name": "",
+              "directions": [
+                ""
+              ]
+            }
+          ],
+          "mode": {
+            "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+            "id": "walking",
+            "name": "walking",
+            "type": "Mode",
+            "routeType": "Unknown",
+            "status": "Unknown"
+          },
+          "disruptions": [],
+          "plannedWorks": [],
+          "distance": 7455,
+          "isDisrupted": false,
+          "hasFixedLocations": false
+        }
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+      "id": "136",
+      "name": "136",
+      "modeName": "bus",
+      "disruptions": [],
+      "created": "2019-08-20T16:25:25.35Z",
+      "modified": "2019-08-20T16:25:25.35Z",
+      "lineStatuses": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+          "id": 0,
+          "statusSeverity": 10,
+          "statusSeverityDescription": "Good Service",
+          "created": "0001-01-01T00:00:00",
+          "validityPeriods": []
+        }
+      ],
+      "routeSections": [],
+      "serviceTypes": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Regular",
+          "uri": "/Line/Route?ids=136&serviceTypes=Regular"
+        }
+      ],
+      "crowding": {
+        "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+      }
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+      "id": "london-overground",
+      "name": "London Overground",
+      "modeName": "overground",
+      "disruptions": [],
+      "created": "2019-08-20T16:25:25.36Z",
+      "modified": "2019-08-20T16:25:25.36Z",
+      "lineStatuses": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+          "id": 0,
+          "statusSeverity": 10,
+          "statusSeverityDescription": "Good Service",
+          "created": "0001-01-01T00:00:00",
+          "validityPeriods": []
+        }
+      ],
+      "routeSections": [],
+      "serviceTypes": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Regular",
+          "uri": "/Line/Route?ids=London Overground&serviceTypes=Regular"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+          "name": "Night",
+          "uri": "/Line/Route?ids=London Overground&serviceTypes=Night"
+        }
+      ],
+      "crowding": {
+        "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+      }
+    }
+  ],
+  "stopMessages": [],
+  "recommendedMaxAgeMinutes": 5,
+  "searchCriteria": {
+    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.SearchCriteria, Tfl.Api.Presentation.Entities",
+    "dateTime": "2019-08-26T17:11:00",
+    "dateTimeType": "Departing",
+    "timeAdjustments": {
+      "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustments, Tfl.Api.Presentation.Entities",
+      "earliest": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+        "date": "20190826",
+        "time": "0300",
+        "timeIs": "departing",
+        "uri": "/journey/journeyresults/51.467334,-0.063216/to/51.520207,-0.057907?nationalsearch=false&time=0300&date=20190826&timeIs=departing"
+      },
+      "earlier": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+        "date": "20190826",
+        "time": "1702",
+        "timeIs": "departing",
+        "uri": "/journey/journeyresults/51.467334,-0.063216/to/51.520207,-0.057907?nationalsearch=false&time=1702&date=20190826&timeIs=departing"
+      },
+      "later": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+        "date": "20190826",
+        "time": "1718",
+        "timeIs": "departing",
+        "uri": "/journey/journeyresults/51.467334,-0.063216/to/51.520207,-0.057907?nationalsearch=false&time=1718&date=20190826&timeIs=departing"
+      },
+      "latest": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+        "date": "20190827",
+        "time": "0300",
+        "timeIs": "departing",
+        "uri": "/journey/journeyresults/51.467334,-0.063216/to/51.520207,-0.057907?nationalsearch=false&time=0300&date=20190827&timeIs=departing"
+      }
+    }
+  },
+  "journeyVector": {
+    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyVector, Tfl.Api.Presentation.Entities",
+    "from": "-0.063216:51.467334:WGS84[DD.dddd]",
+    "to": "-0.057907:51.520207:WGS84[DD.dddd]",
+    "via": "",
+    "uri": "/journey/journeyresults/51.467334,-0.063216/to/51.520207,-0.057907?nationalsearch=false"
+  }
+}
