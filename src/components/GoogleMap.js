@@ -12,9 +12,10 @@ export default ({defaultCenter, onGoogleApiLoaded, children, defaultZoom = 15}) 
     };
   }  
 
+  // TODO: use env variable for API key
   return (
     <GoogleMapReact
-      bootstrapURLKeys={{ key: "AIzaSyC0u5-GKiyOy0Bp0-Bvu-mvwUI3tirf-NE", libraries: ["places"]}}
+      bootstrapURLKeys={{ key: "AIzaSyAcMoeviCbQ1hyRLnpa_zoHRehO-8hn5yA", libraries: ["places"]}}
       defaultCenter={defaultCenter}
       defaultZoom={defaultZoom}
       placesLibrary={true}
