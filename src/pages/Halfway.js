@@ -31,13 +31,16 @@ export default () => {
 
   if (loading) return <Loading />
 
+  const mInfo = halfway.journeyA && `${Math.round(halfway.journeyA.duration)} mins`
+  const fInfo = halfway.journeyB && `${Math.round(halfway.journeyB.duration)} mins`
+
   return (
     <Wrapper>
       <span>
-        <Box title="My Journey" info={halfway.journeyA && Math.round(halfway.journeyA.duration)}>
+        <Box title="My Journey" info={mInfo}>
           <Journey data={halfway.journeyA} />
         </Box>
-        <Box title="Friends Journey" info={halfway.journeyB && Math.round(halfway.journeyB.duration)}>
+        <Box title="Friends Journey" info={fInfo}>
           <Journey data={halfway.journeyB} />
         </Box>
       </span>
