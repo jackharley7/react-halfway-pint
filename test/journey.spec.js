@@ -268,7 +268,7 @@ describe('reverseJourney', () => {
   });
 });
 
-describe.only('trimLegStopPoints', () => {
+describe('trimLegStopPoints', () => {
   it('should do nothing if stopPoints is empty', () => {
     const leg = {departurePoint: {naptanId: "940GZZLUSGN"}, arrivalPoint: {naptanId: "random"}, path: {stopPoints: []}};
     const expect = {departurePoint: {naptanId: "940GZZLUSGN"}, arrivalPoint: {naptanId: "random"}, path: {stopPoints: []}};

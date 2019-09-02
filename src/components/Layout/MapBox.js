@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { screens } from './../../theme';
+import { borderColor } from './../../theme';
 
 export default styled.div`
   width: 304px;
@@ -8,8 +9,8 @@ export default styled.div`
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  border: ${props => { return props.theme.mode === 'light' ? 'none' : `1px solid ${borderColor(props)}`}};
   @media ${screens.md} {
-    height: 50vh;
     flex: 1;
     max-width: 500px;
     margin-left: 20px;

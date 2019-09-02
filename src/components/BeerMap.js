@@ -1,31 +1,35 @@
 import React, { useState } from 'react';
+import styled from 'styled-components';
 import GoogleMap from './GoogleMap';
-import { MiddlePointMarker, BeerMarker } from './MapMarkers';
+import { BeerMarker } from './MapMarkers';
+import LocationDetails from './BeerMap/LocationDetails';
+import getClosestLocation from './../services/closestPub';
+
+const MapWrapper = styled.div`
+  height: 40vh;
+`;
 
 export default ({lat, lng}) => {
-  const [locations, setLocations] = useState([]);
+  const [location, setLocation] = useState(null);
 
   const handleApiLoaded = async ({ map, maps }) => {
     const service = new maps.places.PlacesService(map);
-
-    try {
-      const options = await findNearbyPubs(service, lat, lng)
-      setLocations(options);
-    } catch {
-      // no pubs found :(
-    }
+    const options = await findNearbyPubs(service, lat, lng);
+    setLocation(getClosestLocation(lat, lng, options));
   };
 
   return (
-    <div style={{ height: '50vh', width: '100%' }}>
-      <GoogleMap
-        defaultCenter={{lat, lng}}
-        defaultZoom={15}
-        onGoogleApiLoaded={handleApiLoaded}
-      >
-        { locations.map(({geometry}, i) => <BeerMarker key={i} lat={geometry.location.lat()} lng={geometry.location.lng()}/>) }
-        <MiddlePointMarker lat={lat} lng={lng} />
-      </GoogleMap>
+    <div style={{ height: '56vh', width: '100%' }}>
+      <LocationDetails location={location}/>
+      <MapWrapper>
+        <GoogleMap
+          defaultCenter={{lat, lng}}
+          defaultZoom={15}
+          onGoogleApiLoaded={handleApiLoaded}
+        >
+          { location && <BeerMarker lat={location.geometry.location.lat()} lng={location.geometry.location.lng()}/> }
+        </GoogleMap>
+      </MapWrapper>
     </div>
   );
 };
@@ -45,23 +49,6 @@ export const useMap = (iLat, iLng) => {
     changeLocation,
   }
 };
-
-// calculate distance from one lat/lng to another. Slight overkill for short distances!
-// const getDistanceFromLatLonInKm = (lat1,lon1,lat2,lon2) => {
-//   const R = 6371; // Radius of the earth in km
-//   const dLat = deg2rad(lat2-lat1);  // deg2rad below
-//   const dLon = deg2rad(lon2-lon1); 
-//   const a = 
-//     Math.sin(dLat/2) * Math.sin(dLat/2) +
-//     Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * 
-//     Math.sin(dLon/2) * Math.sin(dLon/2)
-//     ; 
-//   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
-//   const d = R * c; // Distance in km
-//   return d;
-// }
-
-// const deg2rad = (deg) => deg * (Math.PI/180);
 
 const findNearbyPubs = (service, lat, lng) => {
   return new Promise((resolve, reject) => {

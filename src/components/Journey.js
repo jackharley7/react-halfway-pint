@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-// import data from './../services/data/journey.json';
 import JourneyLeg from './Journey/JourneyLeg';
 
 // Walk to xyz

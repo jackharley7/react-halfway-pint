@@ -6,7 +6,6 @@ const Marker = styled.div`
   transform: ${props => props.$hover ? "scale(1.4)" : "scale(1)"};
   background-repeat: no-repeat;
   background-size: contain;
-  cursor: pointer;
 `;
 
 export const MiddlePointMarker = styled(Marker)`
@@ -21,8 +20,8 @@ export const MiddlePointMarker = styled(Marker)`
 export const BeerMarker = styled(Marker)`
   left: -12px;
   top: -10px;
-  height: 26px;
-  width: 20px;
-  border-radius: 10px;
+  height: 42px;
+  width: 36px;
+  border-radius: 21px;
   background-image: url('/icons/beermarker.png');
 `;

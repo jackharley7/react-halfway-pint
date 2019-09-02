@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   cursor: pointer;
   font-size: 36px;
   position: absolute;
-  left: 5px;
+  right: 15px;
   top: 5px;
 `;
 

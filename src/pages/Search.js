@@ -53,7 +53,7 @@ export default () => {
             disabled={!(myLocationSelection.selected && friendsLocationSelection.selected)}>Go</ActionButton>
         </ButtonWrapper>
       </Box>
-      <MapBox style={{flex: 1}}>
+      <MapBox style={{flex: 1, height: '56vh'}}>
         <GoogleMap
           defaultCenter={{lat: 51.5301934, lng: -0.013624}}
           onGoogleApiLoaded={handleApiLoaded}
